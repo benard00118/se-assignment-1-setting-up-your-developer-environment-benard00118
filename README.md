@@ -18,6 +18,10 @@ This assignment aims to familiarize you with the tools and configurations necess
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
+git config --global user.name "Benard Karanja"
+git config --global user.email "benardopeter4.email@example.com"
+
+
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
@@ -35,6 +39,61 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+
+
+SETTING UP GIT AND GITHUB
+
+
+Challenges:
+
+Encountered issues with starting the MariaDB service, which was resolved by ensuring the correct directory permissions and configuration settings.
+Had to modify the MariaDB configuration file to set the correct socket path.
+Solutions:
+
+Ensured the /run/mysqld directory existed and had the correct permissions.
+Modified the 50-server.cnf file to ensure the correct socket path was set.
+Used sudo systemctl enable mariadb to ensure the service starts automatically on boot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
